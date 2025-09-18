@@ -332,6 +332,14 @@ export default function App() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />
+          <iframe
+            src="public/music/BG.mp3"
+            width="300"
+            height="80"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media">
+          </iframe>
         </div>
       </motion.div>
     </div>
