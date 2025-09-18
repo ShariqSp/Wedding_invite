@@ -208,7 +208,7 @@ export default function App() {
     return (
       <div style={mainBgStyle}>
         <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 1 }}>
-          <h1 style={titleStyle}>Wedding Invitation</h1>
+          <h1 style={titleStyle}>Engagement Invitation</h1>
           <p style={{ color: "#7329ab", fontSize: "21px" }}>Requesting location permission...</p>
         </motion.div>
         {renderHearts()}
@@ -323,7 +323,7 @@ export default function App() {
         </div>
         <div style={mapContainerStyle}>
           <iframe
-            title="Wedding Venue Location"
+            title="Engagement Venue Location"
             src="https://www.google.com/maps?q=SVS+Function+Hall,+Pamuru+Rd,+Kandukur,+Andhra+Pradesh+523105&output=embed"
             width="100%"
             height="100%"
