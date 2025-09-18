@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import AudioPlayer from "./AudioPlayer";
 
 // Distance calculation (Haversine)
 function getDistance(lat1, lon1, lat2, lon2) {
@@ -332,16 +333,11 @@ export default function App() {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />
-          <iframe
-            src="public/music/BG.mp3"
-            width="300"
-            height="80"
-            frameborder="0"
-            allowtransparency="true"
-            allow="encrypted-media">
-          </iframe>
+
         </div>
       </motion.div>
+       <AudioPlayer />
     </div>
+
   );
 }
